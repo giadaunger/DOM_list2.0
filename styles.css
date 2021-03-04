@@ -1,0 +1,80 @@
+body {
+    background: rgb(107,186,222);
+    background: -moz-linear-gradient(90deg, rgba(107,186,222,1) 0%, rgba(232,156,205,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(107,186,222,1) 0%, rgba(232,156,205,1) 100%);
+    background: linear-gradient(90deg, rgba(107,186,222,1) 0%, rgba(232,156,205,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#6bbade",endColorstr="#e89ccd",GradientType=1); 
+}
+
+h1, h2, h3, p, label, article, #newtodo {
+    color: black;
+    margin-top: 40px;
+    font-family: "Comic Sans MS", Comic Sans, cursive;
+}
+
+h1{
+    font-size: 32px;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+#newtodobutton{
+
+    background-color: #6bbade;
+    color: black;
+    width: 70px;
+    height: 35px;
+    font-family: "Comic Sans MS", Comic Sans, cursive;
+    border: 1.5px solid black;
+}
+
+#newtodobutton:hover {
+    background-color: #3c97c2;
+    color: white;
+}
+
+#clearbutton{
+
+    background-color: #e89ccd;
+    color: black;
+    width: 125px;
+    height: 35px;
+    font-family: "Comic Sans MS", Comic Sans, cursive;
+    border: 1.5px solid black;
+}
+
+#clearbutton:hover {
+    background-color: #bd80a7;
+    color: white;
+}
+
+#newtodo{
+    width: 275px;
+    height: 30px;
+    border: 1.5px solid black;
+}
+
+.container{
+    border-top: 5px solid #e89ccd;
+    border-bottom: 5px solid #6bbade;
+    border-left: 5px solid #e89ccd;
+    border-right: 5px solid #6bbade;;
+    background-color: white; 
+    list-style-type: none;
+    padding: 10px;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#message{
+    color: red;
+}
+
+#todolist{
+    background: #cce5ff;
+    margin: 5px;
+}
